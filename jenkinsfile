@@ -1,0 +1,10 @@
+pipeline{
+agent any
+stages('my demo'){
+stage{
+    steps{ 
+      echo " I am pretty excited to learning jenkins"
+          }
+      }
+                  }
+}
